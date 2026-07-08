@@ -739,4 +739,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C50P2:END-->
+<!--WY-C50P3:BEGIN-->
+<style id="wy-c50p3-css">
+.c50p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c50p3-fabbox.show{display:block;}
+.c50p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c50p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c50p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c50p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c50p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c50p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c50p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c50p3-modal.open{display:flex;}
+.c50p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c50p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c50p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c50p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c50p3-close:hover{background:#e3d5b8;}
+.c50p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c50p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c50p3-tbl th,.c50p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c50p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c50p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c50p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c50p3-tbl b{color:#8b2500;}
+.c50p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c50p3-note b{color:#8b2500;}
+@media(max-width:900px){.c50p3-fabbox{right:14px;}.c50p3-tbl{font-size:11.5px;}.c50p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c50p3-fabbox" id="c50p3Box"><button class="c50p3-btn" id="c50p3Btn" type="button" aria-label="開啟全景總表"><span class="c50p3-ic">▦</span><span class="c50p3-ls"><span class="c50p3-l1">本品 · 大乘無住處</span><span class="c50p3-l2">深層邏輯解構</span></span></button></div><div class="c50p3-modal" id="c50p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c50p3-card"><button class="c50p3-close" id="c50p3Close" type="button" aria-label="關閉">×</button><h3>卷50・第3品 大乘無住處 · 全景總表</h3><p class="sub">卷50・第3品｜無住處・雙遣雙照・非住非不住</p><table class="c50p3-tbl"><caption>一、大乘無住處・論證骨架</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>經文標定與表面矛盾</td><td>標定經文「是大乘無住處」；論主問對「到薩婆若住」與「無住處」之語似有張力，形成歸宿義與無著義的表面矛盾。</td></tr><tr><td>二諦圓融與破立幾何學</td><td>以二諦圓融之視角化解矛盾，全文邏輯樞紐在於「以畢竟空法住」，並以<b>雙遣雙照</b>的破立幾何學同時遮遣「住」與「不住」兩端。</td></tr><tr><td>解析不住／非不住</td><td>「不住」遣除實有與自相之執；「非不住」遣除虛無斷滅之見；辯證結論歸於超越兩邊的實相——非住非不住。</td></tr><tr><td>中論映射架構</td><td>以三重視角映照《中論》：〈觀涅槃品〉破除常斷、〈觀四諦品〉空故能成無礙即是住、〈觀六情品〉如幻如夢夢中做佛事。</td></tr><tr><td>心法雙重架構</td><td>操作一為如夢如幻的觀照，操作二為中道平衡的微調機制，最高指導原則為絕對的無底限安住。</td></tr><tr><td>全景與結語</td><td>邏輯與修證全景圖歸納核心診斷矩陣與《中論》視角對照記憶表，結語「非住非不住」總攝全品。</td></tr></tbody></table><table class="c50p3-tbl"><caption>二、雙遣雙照・關鍵論證</caption><thead><tr><th>論證</th><th>內容</th></tr></thead><tbody><tr><td>畢竟空法住</td><td>全文邏輯樞紐：菩薩非以有所得心住，而是以畢竟空之法性為「住」，此住即是無住，無住即是真住。</td></tr><tr><td>不住＝遣實有</td><td>破「住」為實有自相，若執有一實法可住，仍落常邊，故言「不住」以遮遣此執。</td></tr><tr><td>非不住＝遣斷滅</td><td>若因「不住」便執全然虛無、無所依止，則落斷邊，故續言「非不住」以遮遣斷滅之見，二遣並用方顯中道。</td></tr><tr><td>觀涅槃品・破常斷</td><td>涅槃與世間不二，用以證成「住」與「不住」皆非究竟二元對立，而是同一畢竟空性之異名。</td></tr><tr><td>觀四諦品・空故能成</td><td>「以有空義故，一切法得成」，說明「無住處」正因空故能立，非空則一切住處、佛道皆不得成就。</td></tr><tr><td>觀六情品・如幻如夢</td><td>如幻如夢喻示菩薩於畢竟空中夢中作佛事、住而無住，度生事業與空性全然不相妨礙。</td></tr></tbody></table><table class="c50p3-tbl"><caption>三、修行操作與中觀結論</caption><thead><tr><th>層面</th><th>內容</th></tr></thead><tbody><tr><td>操作一：如夢如幻的觀照</td><td>於一切度生行、乃至住薩婆若之念，皆作如夢如幻觀，不取為實。</td></tr><tr><td>操作二：中道平衡的微調機制</td><td>觀照中隨時微調，不落有邊（執有所住），亦不落無邊（廢棄度生方便），保持動態的中道平衡。</td></tr><tr><td>最高指導原則：絕對的無底限安住</td><td>安住而無有底限、無有邊際可尋——因無住處本身即非一「處」，故不可以任何座標定位之，此即大乘無住處之究竟義。</td></tr><tr><td>結語：非住非不住</td><td>全品收攝於「非住非不住」一句，既非實有可住之處，亦非空無所依，正是畢竟空中道之如實顯現。</td></tr></tbody></table><p class="c50p3-note">本品從經文「是大乘無住處」出發，以二諦圓融與畢竟空法住為樞紐，用雙遣雙照的方式同時破除「住」（常邊、實有）與「不住」（斷邊、虛無）兩種偏執，逐句映射回《中論》〈觀涅槃品〉、〈觀四諦品〉、〈觀六情品〉的根本偈頌，證成「非住非不住」的中道實相。修行操作上則以如夢如幻的觀照與中道平衡的微調機制，將此哲學辯證轉化為可操作的止觀心法，使菩薩雖度生無量而心無所住，雖無所住而度生不輟，是為大乘無住處之真實義。</p></div></div>
+<script id="wy-c50p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c50p3Btn"),BOX=document.getElementById("c50p3Box"),MODAL=document.getElementById("c50p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c50p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C50P3:END-->
 </body></html>

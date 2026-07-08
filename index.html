@@ -633,4 +633,57 @@ setTimeout(fabShow,600);setTimeout(fabShow,2000);
 })();
 </script>
 <!--WY-SEARCH:END-->
+<!--WY-C50P1:BEGIN-->
+<style id="wy-c50p1-css">
+.c50p1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c50p1-fabbox.show{display:block;}
+.c50p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c50p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c50p1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c50p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c50p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c50p1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c50p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c50p1-modal.open{display:flex;}
+.c50p1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c50p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c50p1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c50p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c50p1-close:hover{background:#e3d5b8;}
+.c50p1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c50p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c50p1-tbl th,.c50p1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c50p1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c50p1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c50p1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c50p1-tbl b{color:#8b2500;}
+.c50p1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c50p1-note b{color:#8b2500;}
+@media(max-width:900px){.c50p1-fabbox{right:14px;}.c50p1-tbl{font-size:11.5px;}.c50p1-card{padding:26px 14px 16px;}}
+</style>
+<div class="c50p1-fabbox" id="c50p1Box"><button class="c50p1-btn" id="c50p1Btn" type="button" aria-label="開啟全景總表"><span class="c50p1-ic">▦</span><span class="c50p1-ls"><span class="c50p1-l1">本品 · 釋發趣品之餘</span><span class="c50p1-l2">覺悟的幾何藍圖</span></span></button></div><div class="c50p1-modal" id="c50p1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c50p1-card"><button class="c50p1-close" id="c50p1Close" type="button" aria-label="關閉">×</button><h3>卷50・第1品 釋發趣品第二十之餘 · 全景總表</h3><p class="sub">卷50・第1品｜七地至十地・中觀辯證昇華・地地無住</p><table class="c50p1-tbl"><caption>一、七至十地・辯證昇華總表</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>導論：覺悟的幾何藍圖</td><td>揭示第一義諦與世俗諦的張力（核心認知悖論）、二諦圓融的中觀雙螺旋運作系統、四地一貫的辯證昇華拓撲心法地圖，作為全品總綱。</td></tr><tr><td>第七地・遠行地</td><td>經文標定七地二十法所不應著；論釋以<b>因見破斥</b>證成「自相空」，並開展三解脫門、定慧等持、三分清淨、三緣慈悲的「莊嚴的悖論」，最終破魔網、見一相而轉依，唯餘最後微細執——不染愛。</td></tr><tr><td>第八地・不動地</td><td>經文標定八地具足四法、五法；論釋順入眾生心與無功用行，以<b>如幻三昧的投射模型</b>解構佛身，見報生三昧與隨類受身，如實觀法身之幾何學。</td></tr><tr><td>第九地・善慧地</td><td>經文標定九地具足十二法；論釋認知轉向而生「差別智」，通達辭辯力與語言之虛妄與實用，並以示現的社會學（家、姓、出生成就）與破妄示現（出家、莊嚴佛樹）彰顯善巧。</td></tr><tr><td>第十地・法雲地</td><td>經文標定十地當知如佛；論釋法雲地相（大雲澍雨、降魔、灌頂）、斷盡習氣為成佛最後的<b>微觀手術</b>，終至究竟實相——過九地而住於佛地。</td></tr><tr><td>總攝：菩薩道的作業系統</td><td>以地前與地上的認知維度對比矩陣、般若與大悲的雙螺旋（破除即是擴張），結語指出「無住處」即是大乘的真義。</td></tr></tbody></table><table class="c50p1-tbl"><caption>二、七地至十地・關鍵辯證機制</caption><thead><tr><th>機制</th><th>解析</th></tr></thead><tbody><tr><td>自相空與因見破斥</td><td>七地論釋以「因見破斥」拆解對二十法之著，證成一切法「自相空」，為遠行地不應著的理論根據。</td></tr><tr><td>三解脫門與三分清淨</td><td>空、無相、無願三解脫門與定慧等持相配，成就三分清淨；三緣慈悲則使悲心不落有相，形成「莊嚴的悖論」——莊嚴而不著莊嚴相。</td></tr><tr><td>如幻三昧的投射模型</td><td>八地論釋以如幻三昧說明佛身之顯現如投影，順入眾生心而無功用行，解構「佛身實有」之執，改以幾何學式的如實觀法身。</td></tr><tr><td>差別智與辭辯力</td><td>九地由認知轉向生「差別智」，通達語言文字之虛妄性與方便實用性，能以出家相、莊嚴佛樹等示現破除眾生對表相的執取。</td></tr><tr><td>法雲地之終極手術</td><td>十地以大雲澍雨、降魔、灌頂為相，斷盡最後習氣為「成佛的最後微觀手術」，過九地而直住佛地，究竟實相現前。</td></tr><tr><td>認知維度對比矩陣</td><td>總攝以地前（凡夫、聲聞）與地上（菩薩）之認知維度並列對比，凸顯般若破除執著與大悲擴張利他，二者相即為同一雙螺旋動力。</td></tr></tbody></table><table class="c50p1-tbl"><caption>三、中觀定位與結論</caption><thead><tr><th>視角</th><th>內容</th></tr></thead><tbody><tr><td>二諦圓融</td><td>七至十地之修證始終不離第一義諦（畢竟空、自相空）與世俗諦（次第階位、示現度生）的雙軌並進，二諦不相礙而相即。</td></tr><tr><td>無住處的大乘</td><td>品末結語點明：地地相發、地地無住，非有實法可攀升之階梯，而是見地徹底性層層深化的內在幾何運動。</td></tr><tr><td>與後品的橋接</td><td>七地至十地的辯證昇華最終收攝於「出、住、不動」三義相即，成為下一品〈出到品〉四重相違辯證的起點。</td></tr></tbody></table><p class="c50p1-note">本品以中觀「二諦圓融」貫穿七地至十地之修證藍圖：一切果位差別（二十法、四法、五法、十二法）皆是世俗施設，其實相自性空、無所得；菩薩之「發趣」非階梯式的實有攀升，而是般若見地層層深化、大悲利他層層擴張的同一運動。地地相發而地地無住，正是「畢竟空中無所住而生其心」的具體展開，亦為後續〈出到品〉「出而無出、到而無到」的辯證預留伏筆。</p></div></div>
+<script id="wy-c50p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c50p1Btn"),BOX=document.getElementById("c50p1Box"),MODAL=document.getElementById("c50p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c50p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C50P1:END-->
 </body></html>
